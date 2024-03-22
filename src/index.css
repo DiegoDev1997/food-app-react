@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&family=Roboto:wght@500;700&display=swap');
+*{
+  box-sizing: border-box;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 480px;
+  p,li{
+    font-family: 'Montserrat';
+    font-weight:570;
+  }
+}
