@@ -85,6 +85,7 @@ display: flex;
         .price{
             font-weight: 800;
             font-size: 35px;
+            color: #222;
         }
         .divider{
             margin:22px;

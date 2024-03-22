@@ -1,7 +1,8 @@
+import { Layout } from "../../Components/Layout"
 
 
 export default ()=>{
-    return <div>
+    return <Layout>
         hom epage
-    </div>
+    </Layout>
 }
