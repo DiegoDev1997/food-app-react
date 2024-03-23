@@ -1,5 +1,4 @@
 
-
 import { Layout } from "../../Components/Layout"
 import { Container, ProducttItem } from "./style"
 import { useGlobalRedux } from "../../hooks/useRedux"
