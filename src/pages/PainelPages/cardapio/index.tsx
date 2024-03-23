@@ -61,7 +61,7 @@ useEffect(()=>{
                                   <td>{i.category}</td>
                                   <td>{i.price}</td>
                                   <td className="actions">
-                                    <Link to={`/painel/cardapio/${i.id}`}><Edit /></Link>
+                                    <Link to={`/painel/cardapio/editar-produto/${i.id}`}><Edit /></Link>
                                     <span><Trash /></span>
                                   </td>
                             </tr>

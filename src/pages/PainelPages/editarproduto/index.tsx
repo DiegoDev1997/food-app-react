@@ -9,7 +9,7 @@ import { Button } from "../../../Components/Button"
 import { Select } from "../../../Components/Select"
 import { toast } from "react-toastify"
 import { useForm, SubmitHandler, Controller } from 'react-hook-form';
-import {} from '@hookform/resolvers'
+import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 
 
@@ -41,7 +41,7 @@ const schema = yup.object().shape({
   });
 
 
-export const ProdutoId=()=>{
+export const EditarProdutoId=()=>{
     const {query}=useParams()
     const navigate=useNavigate()
     const [imgUrl,setImageUrl]=useState(null)

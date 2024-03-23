@@ -8,6 +8,8 @@ import Login from "../pages/login"
 import Registro from "../pages/registro"
 import Conta from "../pages/Conta"
 import { CardapioP } from "../pages/PainelPages/cardapio"
+import { EditarProdutoId } from "../pages/PainelPages/editarproduto"
+
 
 
 export const Routes=()=>{
@@ -21,6 +23,7 @@ export const Routes=()=>{
            <Route  path="/conta" element={<Conta />}  />
            <Route  path="/carrinho" element={<Carrinho />}  />
            <Route  path="/painel/cardapio" element={<CardapioP />}  />
+           <Route  path="/painel/cardapio/editar-produto/:id" element={<EditarProdutoId />}  />
          </Router>
     
 

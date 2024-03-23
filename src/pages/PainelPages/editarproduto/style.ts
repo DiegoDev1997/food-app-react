@@ -1,4 +1,4 @@
-import { GlobalStyle } from "@/styles/globalstyle.style";
+import { GlobalStyle } from "../../../AppStyle";
 import { styled } from "styled-components";
 
 

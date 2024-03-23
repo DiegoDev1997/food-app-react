@@ -22,7 +22,7 @@ export const CardProduct=({product}:Props)=>{
     const  location=useLocation()
 
     const setProductId=()=>{
-        navigate(`/painel/cardapio/${product.id}`)
+        navigate(`/painel/cardapio/editar-produto/${product.id}`)
         dispatch(addProduct(product))
     }
     const setDataModal=()=>{
