@@ -12,6 +12,7 @@ import { EditarProdutoId } from "../pages/PainelPages/editarproduto"
 import { CategoriasP } from "../pages/PainelPages/categorias"
 import { ProdutosdeCategoriaId } from "../pages/PainelPages/produtosdeCategoriaId"
 import { NovoProdutoP } from "../pages/PainelPages/novoproduto"
+import { Cozinha } from "../pages/PainelPages/cozinha"
 
 
 
@@ -30,6 +31,7 @@ export const Routes=()=>{
            <Route  path="/painel/categorias" element={<CategoriasP />}  />
            <Route  path="/painel/categorias/:category" element={<ProdutosdeCategoriaId />}  />
            <Route  path="/painel/novoproduto" element={<NovoProdutoP />}  />
+           <Route  path="/painel/cozinha" element={<Cozinha />}  />
          </Router>
     
 
