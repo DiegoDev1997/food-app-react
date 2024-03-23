@@ -6,6 +6,8 @@ import Pedidos from "../pages/Pedidos"
 import Carrinho from "../pages/Carrinho"
 import Login from "../pages/login"
 import Registro from "../pages/registro"
+import Conta from "../pages/Conta"
+import { CardapioP } from "../pages/PainelPages/cardapio"
 
 
 export const Routes=()=>{
@@ -16,8 +18,9 @@ export const Routes=()=>{
            <Route  path="/cardapio" element={<Cardapio />}  />
            <Route  path="/cardapio/:id" element={<ProdutoId />}  />
            <Route  path="/pedidos" element={<Pedidos />}  />
+           <Route  path="/conta" element={<Conta />}  />
            <Route  path="/carrinho" element={<Carrinho />}  />
-         
+           <Route  path="/painel/cardapio" element={<CardapioP />}  />
          </Router>
     
 

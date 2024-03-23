@@ -101,6 +101,7 @@ export const BoxRight=styled.div<Props>`
         display:${Props=>Props.statemobile  ? 'flex' : 'hidden'};
         background-color:${GlobalStyle.bgThemeSecondary};
         position: fixed;
+        z-index: 1;
         flex-direction: column;
         align-items: center;
         right: 0;
