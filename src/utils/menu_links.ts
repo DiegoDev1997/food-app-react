@@ -13,3 +13,17 @@ export const  NavLinkNotLogged=[
         {name:'Criar conta',path:'/registro'}
 
 ]
+
+export const PainelAdminLinks=[
+         {name:'Cardapio',path:'/painel/cardapio'},
+         {name:'Categorias',path:'/painel/categorias'},
+         {name:'Novo Produto',path:'/painel/novoproduto'},
+         {name:'Cozinha',path:'/painel/cozinha'},
+         {name:'Vendas',path:'/painel/categorias'},
+         {name:'Minha Loja',path:'/painel/minha_loja'},
+       
+
+
+
+
+]

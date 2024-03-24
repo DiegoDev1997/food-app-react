@@ -13,6 +13,9 @@ import { CategoriasP } from "../pages/PainelPages/categorias"
 import { ProdutosdeCategoriaId } from "../pages/PainelPages/produtosdeCategoriaId"
 import { NovoProdutoP } from "../pages/PainelPages/novoproduto"
 import { Cozinha } from "../pages/PainelPages/cozinha"
+import { Vendas } from "../pages/PainelPages/vendas"
+import {  MinhaLoja } from "../pages/PainelPages/minhaLoja"
+import { CriarLoja } from "../pages/PainelPages/criarLoja"
 
 
 
@@ -32,6 +35,9 @@ export const Routes=()=>{
            <Route  path="/painel/categorias/:category" element={<ProdutosdeCategoriaId />}  />
            <Route  path="/painel/novoproduto" element={<NovoProdutoP />}  />
            <Route  path="/painel/cozinha" element={<Cozinha />}  />
+           <Route  path="/painel/vendas" element={<Vendas />}  />
+           <Route  path="/painel/minha_loja" element={<MinhaLoja />}  />
+           <Route  path="/painel/criar_loja" element={<CriarLoja />}  />
          </Router>
     
 

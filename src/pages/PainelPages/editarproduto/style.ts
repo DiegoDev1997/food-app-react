@@ -32,6 +32,13 @@ form{
         padding: 12px 33px;
         display:block;
         flex:1;
+        .cx-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 22px 0;
+        }
+        
         .cx-input{
             display: flex;
             flex-direction: column;
@@ -41,8 +48,15 @@ form{
                 color:grey;
                 margin:9px 0;
             }
+            input{
+                padding: 33px 12px;
+            }
+            p{
+                margin: 12px 0;
+                font-size: 17px;
+            }
             select{
-                padding:12px;
+                padding: 33px 12px;
                 font-size:18px;
                 box-shadow:0 0 12px #aaa;
                 border:none;

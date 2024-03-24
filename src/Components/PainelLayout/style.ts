@@ -9,7 +9,7 @@ min-height:100vh;
 `
 
 export const HeaderPainel=styled.header`
-width:14vw;
+width:15vw;
 position:fixed;
 height:100vh;
 box-shadow: 0 0 5px #000;
@@ -41,15 +41,22 @@ justify-content:center;
                     display:flex;
                     border-radius: 5px;
                     transition:all ease 0.2s;
-                   justify-content: center;
+                    justify-content: center;
                     align-items: center;
+                    text-align: center;
+                    vertical-align: middle;
                     margin:12px 0;
                     color:#FFF;
                     border-bottom: 2px solid ${GlobalStyle.bgThemeSecondary};
-                    font-size:19px;
+                    font-size:16px;
                     &:hover{
                         background:${GlobalStyle.bgThemeSecondary};
                        
+                    }
+                    .svg{
+                        height: 30px;
+                        fill:white;
+                        margin-right: 8px;
                     }
                 }
             }
@@ -70,9 +77,10 @@ justify-content:center;
 `
 export const BodyPainel=styled.div`
 min-height:900px;
-margin-left:14vw;
+margin-left:15vw;
 padding:13px;
 flex:1;
+
 
 @media screen and (max-width:830px){
     width:100vw;

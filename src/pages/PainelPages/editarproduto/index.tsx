@@ -86,9 +86,17 @@ export const EditarProdutoId=()=>{
                 <Input type='text' m='12px 0' w='100%' p={'22px'} />
                </div>
                <div className="cx-input">
+                <label htmlFor="Nome">Detalhe</label>
+                <Input type='text'placeholder="Detalhe do produto/Ex:Com açúcar" m='12px 0' w='100%' p={'22px'} />
+               </div>
+               <div className="cx-input">
                 <label htmlFor="Nome">Sabor</label>
                 <Input type='text' m='12px 0' w='100%' p={'22px'} />
                </div>
+               <div className="cx-btn">
+                 <Button text="Adicionar produto" type='submit' m="30px 0"  bg="#008DDA" p="27px" bgh="#1640D6" radius="9px" w={'50%'}
+                />
+              </div>
           </div>
       
           </form>
